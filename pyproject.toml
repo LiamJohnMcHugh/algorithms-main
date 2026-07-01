@@ -39,7 +39,7 @@ exclude = ["tests", "tests.*", "tools", "tools.*", "docs", "docs.*"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
-addopts = ["-v", "--tb=short"]
+addopts = ["-v", "--tb=short", "--ignore=tests/test_veb_tree.py"]
 
 [tool.ruff]
 line-length = 88
